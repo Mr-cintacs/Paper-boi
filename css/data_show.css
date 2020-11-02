@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+*{
+	box-sizing: border-box;
+	margin:0px;
+	border:0px;
+}
+
+body{
+	background-color:#ffe5b4/*292826*/;
+	font-family: 'Manrope', sans-serif;
+}
+.heading{
+	width:100%;
+	margin:auto;
+}
+h1{
+	text-align:center;
+	margin-bottom:30px;
+	text-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+form{
+	width:80%;
+	margin: 30px auto;
+}
+form label{
+	padding:5px;
+	font-size:1em;
+	margin-left:10px;
+}
+form input,select{
+	padding:10px;
+	font-size: 1em;
+	border-radius: 15px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+#btn{
+	font-family: 'Manrope', sans-serif;
+	padding:10px;
+	margin:0px 40px;
+	border-radius:15px;
+	background-color: black;
+	color:white;
+
+}
+.mytable{
+	margin-top:50px;
+	padding:5px;
+}
+table{
+	margin:auto;
+	table-layout:fixed;
+	border-collapse: collapse;
+	border-spacing: 10px;
+	border-radius:20px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	color:white;
+	background-color:#474747;
+}
+table a{
+	color:white;
+	font-size:0.8em;
+	margin-left:5px;
+	margin-right:5px;
+	display:block;
+}
+thead th{
+	padding:20px;
+	padding-bottom: 5px;
+	border-bottom:2px black solid;
+}
+th, td {
+    
+    letter-spacing: 1px;
+    padding:10px 7px;
+    text-align:center;
+    border-radius:20px;
+}
+
