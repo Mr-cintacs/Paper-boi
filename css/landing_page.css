@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
 @import url('data:application/octet-stream;base64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdPcGVuIFNhbnMnOwogIGZvbnQtc3R5bGU6IG5vcm1hbDsKICBmb250LXdlaWdodDogNDAwOwogIGZvbnQtZGlzcGxheTogc3dhcDsKICBzcmM6IGxvY2FsKCdPcGVuIFNhbnMgUmVndWxhcicpLCBsb2NhbCgnT3BlblNhbnMtUmVndWxhcicpLCB1cmwoaHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbS9zL29wZW5zYW5zL3YxNy9tZW04WWFHczEyNk1pWnBCQS1VMVVnLnR0ZikgZm9ybWF0KCd0cnVldHlwZScpOwp9Cg==');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
@@ -8,12 +8,13 @@
 	margin:0;
 }
 body{
-	background-color:#ffe5b4/*292826*/;
+	background-color:#0D3B66;
+	/* ffe5b4 */
 	overflow: hidden;
 	height: 100vh;
 }
 h3,li,a{
-	font-family: 'Manrope', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:20px;
 	color:black;
 	text-decoration: none;
@@ -37,7 +38,11 @@ h3,li,a{
 	justify-content: flex-end;
 	background-color:#fdd300;
 	border-radius:15px;
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	transition:transform 0.25s ease-in-out;
+}
+.navigation:hover{
+	transform:scale(1.01);
 }
 .logo{
 	margin-left:10px;
@@ -70,6 +75,10 @@ li{
 	list-style: none;
 	padding:0 15px;
 }
+.nav-item{
+	font-size:1.05rem;
+}
+
 
 section{
 
@@ -89,63 +98,69 @@ section{
 #home{
 	padding:50px;
 	/*background-color:#474747;*/
+	color:#FAF0CA;
+	font-family: 'Roboto', sans-serif;
 }
 #home h1{
+	/* color:#EE964B; */
+	color:#0D3B66;
 	margin-top: 70px;
 	padding-top:40px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:300;
+	font-weight:700;
 	font-size:4rem;
 	text-transform: uppercase;
+	letter-spacing:5px;
+	text-shadow: 2px 2px 0px #EE964B,
+				-2px -2px 0px #EE964B;
+	
 }
 #home p{
 	font-family: 'Roboto', sans-serif;
-	margin-top:60px;
-	margin-bottom:20px;
+	margin-top:20px;
+	margin-bottom:50px;
 	font-weight:normal;
-	font-size: 2rem;
+	font-size: 1.4rem;
 	text-align:center;
 }
 #btn{
-	font-family: 'Open Sans', sans-serif;
 	background-color:#fce77d;
-	margin-top: 20px;
-	padding:20px;
-	font-size:1.5rem;
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	background-color:#F96A4D;
+	margin-top: 30px auto;
+	padding:1em;
+	font-size:1rem;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 	border-radius:15px
-
 }
 /*/////////////////*/
 /*//LOGIN-SECTION//*/
 /*///////////////*/
 
+#login{
+	color:#FAF0CA;
+	font-family: 'Roboto', sans-serif;
+}
 #login h1{
-	font-family: 'Open Sans', sans-serif;
+	color:#0D3B66;
 	font-size:4rem;
 	font-weight: 300;
-	margin-top: 160px;
+	margin-top: 100px;
 	text-align: center;
+	text-shadow: 2px 2px 0px #EE964B,
+				-2px -2px 0px #EE964B;
 }
 #login form{
-	font-family: 'Open Sans', sans-serif;
 	display:flex;
 	width:60%;
-	margin:50px auto;
+	margin:10px auto;
 	padding:10px;
 }
 #user-pass{
-
-	border-right:2px black solid;
-	border-bottom:4px black solid;
 	border-bottom-left-radius: 5px;
-	padding:30px;
+	padding:5px;
 	padding-right:40px;
 	flex:1;
 }
 #type-submit{
-	border-left:2px black solid;
-	border-top:4px black solid;
 	border-top-right-radius: 5px;
 	padding:20px;
 	flex:1;
@@ -163,7 +178,6 @@ section{
 	padding:10px;
 	width:80%;
 	margin:10px;
-	border:1px black solid;
 	border-radius:10px;
 	font-size:1.3em;
 
@@ -179,5 +193,21 @@ section{
 	font-size:1em;
 }
 #login a{
+	color:#EE964B;
+	text-shadow: 1px 1px 0px #EE964B;
 	text-decoration:underline;
+}
+footer{
+	text-align:center;
+	background-color:#FAF0CA;
+	color:#0A0B0A;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+}
+footer span{
+	font-weight:bold;
+	font-family: 'Rubik', sans-serif;
+	font-size:1.2rem;
 }

@@ -128,16 +128,16 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 				<h3 id="logo-text">PAPER PIMP</h3>
 			</div>
 			<ul id="list">
-				<li> <a href="#home">HOME </a></li>
-				<li> <a href="#login">LOGIN</a></li>
-				<li> <a href="register.php"> REGISTER </a></li>
-				<li> <a href="#"> ABOUT </a></li>
+				<li> <a class='nav-item' href="#home">HOME </a></li>
+				<li> <a class='nav-item' href="#login">LOGIN</a></li>
+				<li> <a class='nav-item' href="register.php"> REGISTER </a></li>
+				<li> <a class='nav-item' href="#"> ABOUT </a></li>
 			</ul>
 		</nav>
 
 		<section id="home">
 			<h1>welcome</h1>
-			<p>A simple tool to help students save time by searching for and grouping question papers for them.</p>
+			<p>A simple tool to help my college students save time by searching for and grouping question papers for them.</p>
 			<button id="btn"><a href="#login">Login To Get Started</a></button>
 		</section>
 
@@ -166,12 +166,15 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 			 		<input id="btn" type="submit" name="submit" value="Log In">	
 			 		<span>Don't have an account ? <a href="register.php"> Register</a></span>	
 				</div>
-		 		
-
-	 	</form>
+		 </form>
+		 <footer>
+			 <p>A site to see by <span>Pavit Kailay</span></p>
+		 </footer>
 		</section>
-		
+
 	</div>
-	<footer>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></footer>
+	<!-- <footer>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></footer> -->
 </body>
 </html>
+bb321b70fac802:945b8e45@us-cdbr-east-02.cleardb.com/heroku_5218d42c02c031e
+jigglysmackeronney86
