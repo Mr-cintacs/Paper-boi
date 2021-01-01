@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
 @import url('data:application/octet-stream;base64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdPcGVuIFNhbnMnOwogIGZvbnQtc3R5bGU6IG5vcm1hbDsKICBmb250LXdlaWdodDogNDAwOwogIGZvbnQtZGlzcGxheTogc3dhcDsKICBzcmM6IGxvY2FsKCdPcGVuIFNhbnMgUmVndWxhcicpLCBsb2NhbCgnT3BlblNhbnMtUmVndWxhcicpLCB1cmwoaHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbS9zL29wZW5zYW5zL3YxNy9tZW04WWFHczEyNk1pWnBCQS1VMVVnLnR0ZikgZm9ybWF0KCd0cnVldHlwZScpOwp9Cg==');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
@@ -27,7 +28,7 @@ h3,li,a{
 	scroll-snap-type:y mandatory;
 }
 .navigation{
-	width:60%;
+	width:70%;
 	display:flex;
 	margin:auto;
 	margin-top:25px;
@@ -103,16 +104,16 @@ section{
 }
 #home h1{
 	/* color:#EE964B; */
-	color:#0D3B66;
+	color:#EE964B;
 	margin-top: 70px;
 	padding-top:40px;
 	font-weight:700;
 	font-size:4rem;
 	text-transform: uppercase;
 	letter-spacing:5px;
-	text-shadow: 2px 2px 0px #EE964B,
+	/* text-shadow: 2px 2px 0px #EE964B,
 				-2px -2px 0px #EE964B;
-	
+	 */
 }
 #home p{
 	font-family: 'Roboto', sans-serif;

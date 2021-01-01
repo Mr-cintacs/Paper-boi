@@ -108,13 +108,13 @@ if($_SERVER['REQUEST_METHOD']=="POST")
  	<nav class="navigation">
 		<div class="logo">
 			<img id="logo-img" src="images/exam.png" alt="image of paper/s">
-			<h3 id="logo-text">PAPER PIMP</h3>
+			<h3 id="logo-text">PAPER BOI</h3>
 		</div>
 		<ul id="list">
-			<li> <a href="landing_page.php">HOME </a></li>
-			<li> <a href="landing_page.php#login">LOGIN</a></li>
-			<li> <a href="register.php"> REGISTER </a></li>
-			<li> <a href="#"> ABOUT </a></li>
+			<li> <a class="nav-item" href="landing_page.php">HOME </a></li>
+			<li> <a class="nav-item" href="landing_page.php#login">LOGIN</a></li>
+			<li> <a class="nav-item" href="register.php"> REGISTER </a></li>
+			<li> <a class="nav-item" href="#"> ABOUT </a></li>
 		</ul>
 	</nav>
 
@@ -140,6 +140,9 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 	 		<button type="submit" name="submit" >Register</button>
 	 	</form>
 	</section>
+	<footer>
+		<p>A site to see by <span>Pavit Kailay</span></p>
+	</footer>
  	
  </body>
  </html>
