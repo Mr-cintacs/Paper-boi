@@ -4,7 +4,7 @@ session_start();
 if(!isset($_SESSION['logged_in']) && $_SESSION['logged_in']!=true)
 {
 	echo "you came back didn't you";
-	header("location:landing_page.php");
+	header("location:index.php");
 	exit;
 }
 include("database.php");
@@ -99,7 +99,7 @@ include("database.php");
 				<h3 id="logo-text">PAPER BOI</h3>
 			</div>
 			<ul id="list">
-				<li> <a class="nav-item" href="landing_page.php">HOME </a></li>
+				<li> <a class="nav-item" href="index.php">HOME </a></li>
 				<li class="nav-item" id="user_info"> WELCOME :<span id='username'><?php echo ucfirst($_SESSION['username']) ;?></span></li>
 				<li> <a class="nav-item" href="logout.php">LOGOUT</a></li>
 			</ul>

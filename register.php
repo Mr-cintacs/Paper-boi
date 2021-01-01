@@ -83,7 +83,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 	 				if($stmt->execute(["username"=>$username,"hash_password"=>$hash_password,"type"=>$type]))
 	 				{
 	 					
-	 					header('location: landing_page.php#login');
+	 					header('location: index.php#login');
 	 				}
 	 				else
 	 				{
@@ -111,8 +111,8 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 			<h3 id="logo-text">PAPER BOI</h3>
 		</div>
 		<ul id="list">
-			<li> <a class="nav-item" href="landing_page.php">HOME </a></li>
-			<li> <a class="nav-item" href="landing_page.php#login">LOGIN</a></li>
+			<li> <a class="nav-item" href="index.php">HOME </a></li>
+			<li> <a class="nav-item" href="index.php#login">LOGIN</a></li>
 			<li> <a class="nav-item" href="register.php"> REGISTER </a></li>
 			<li> <a class="nav-item" href="#"> ABOUT </a></li>
 		</ul>

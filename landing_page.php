@@ -144,7 +144,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 		<section id="login">
 			
 			<h1>LOGIN</h1>
-			<form action="landing_page.php?#login" method="post">
+			<form action="index.php?#login" method="post">
 				<div id="user-pass">
 					<label for="username">Enter Username</label>
 			 		<input id="username" type="text" name="username">
@@ -176,5 +176,3 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	<!-- <footer>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></footer> -->
 </body>
 </html>
-bb321b70fac802:945b8e45@us-cdbr-east-02.cleardb.com/heroku_5218d42c02c031e
-jigglysmackeronney86
