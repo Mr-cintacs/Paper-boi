@@ -26,7 +26,7 @@ h3,li,a{
 	scroll-snap-type:y mandatory;
 }
 .navigation{
-	width:60%;
+	width:70%;
 	display:flex;
 	margin:auto;
 	margin-top:25px;
