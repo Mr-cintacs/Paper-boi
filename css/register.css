@@ -37,7 +37,6 @@ h3,li,a{
 	color:black;
 	cursor: pointer;
 	padding:10px;
-	font-size:
 }
 #logo-img{
 	float:left;
@@ -105,7 +104,7 @@ li{
 }
 #register label{
 	display: block;
-	font-size:1.2em;
+	font-size:1.1em;
 }
 #register button{
 	background-color:#F96A4D;
@@ -122,6 +121,23 @@ span{
 	color:red;
 	margin-bottom: 5px;
 }
-
+footer{
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	background-color:#FAF0CA;
+	color:#0A0B0A;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+}
+#fspan{
+	color:#0A0B0A;
+	display:inline;
+	padding:4px;
+	font-weight:bold;
+	font-family: 'Rubik', sans-serif;
+	font-size:1.2rem;
+}
 
 

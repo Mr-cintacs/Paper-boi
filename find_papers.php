@@ -99,9 +99,9 @@ include("database.php");
 				<h3 id="logo-text">PAPER BOI</h3>
 			</div>
 			<ul id="list">
-				<li> <a href="landing_page.php">HOME </a></li>
-				<li id="user_info"> WELCOME :<span><?php echo $_SESSION['username'] ;?></span></li>
-				<li> <a href="logout.php">LOGOUT</a></li>
+				<li> <a class="nav-item" href="landing_page.php">HOME </a></li>
+				<li class="nav-item" id="user_info"> WELCOME :<span id='username'><?php echo ucfirst($_SESSION['username']) ;?></span></li>
+				<li> <a class="nav-item" href="logout.php">LOGOUT</a></li>
 			</ul>
 		</nav>
 
@@ -110,11 +110,9 @@ include("database.php");
 	<section id="form">
 		<h1>FIND PAPERS</h1>
 		<form class='my-form' target="_blank" action="find_papers_submit.php" method="post" >
-			
-			<div id="left">
-
 				<label for="date">Choose Month/Year :</label>
 					<select name="date" id="date" >
+						<option value=''>Pick a period</option>
 						<option value="May-2019">MAY '19</option>
 						<option value="May-2018">MAY '18</option>
 						<option value="May-2017">MAY '17</option>
@@ -129,10 +127,7 @@ include("database.php");
 					<option>Select date first</option>
 				</select>
 				<span id="error"><?php echo $subject_name_err ?></span>
-			</div>
-
-			<div id="right">
-
+				
 				<label for="sub_code">subject code:</label>
 				<select name="subject_code" id="sub_code">
 					<option>Select subject name first</option>
@@ -143,12 +138,12 @@ include("database.php");
 					<input id="btn" type="submit" name="submit_form" value="Get Paper">
 				</div>
 				
-			</div>
 		</form>
 		<span id='error'><?php echo $record_not_found_err ; ?></span>	
-			
-			
 	</section>
+	<footer>
+			 <p>A site to see by <span>Pavit Kailay</span></p>
+	</footer>
 		
 
 </body>

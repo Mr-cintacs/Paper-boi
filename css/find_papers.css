@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
 	box-sizing: border-box;
@@ -7,16 +8,15 @@
 	margin:0;
 }
 body{
-	background-color:#ffe5b4/*292826*/;
+	background-color:#0D3B66;
 }
 h3,li,a{
-	font-family: 'Manrope', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:20px;
 	color:black;
 	text-decoration: none;
 }
 .navigation{
-	font-family: 'Manrope', sans-serif;
 	width:60%;
 	display:flex;
 	margin:auto;
@@ -27,6 +27,11 @@ h3,li,a{
 	justify-content: flex-end;
 	background-color:#fdd300;
 	border-radius:15px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	transition:transform 0.25s ease-in-out;
+}
+.navigation:hover{
+	transform:scale(1.01);
 }
 .logo{
 	margin-left:10px;
@@ -59,6 +64,9 @@ li{
 	list-style: none;
 	padding:0 15px;
 }
+.nav-item{
+	font-size:1.05rem;
+}
 
 #form{
 	font-family: 'Open Sans', sans-serif;
@@ -69,67 +77,71 @@ li{
 	width:100%;
 }
 #form h1{
+	color:#EE964B;
 	font-size:4em;
 	margin-bottom:30px;
 }
 .my-form{
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
-	flex-direction:row;
+	flex-direction:column;
 	justify-content: center;
 	padding:20px;
-	width:70%;
+	width:30%;
+	margin:auto;
 }
 
-#left{
-	margin-top:-30px;
-	border-right: 2px black solid;
-	width:45%;
-	padding:20px;
-	padding-left:100px;
-	
-}
-#left label{
+label{
+	color:bisque;
 	font-size: 1.5em;
 	display: block;
 	margin-top:20px;
-
+	text-align:center;
 }
-#left select{
-	margin-top: 10px;
-	margin-bottom: 10px;
+select{
+	width:60%;
+	margin:10px auto;
 	display: block;
 	max-width: 90%;
 	padding:10px;
 	font-size:1em;
 	border-radius: 15px;
 }
-#right{
-	padding:20px;
-}
-#right div{
-	padding:20px;
-	font-size: 1em;
-}
-#right select{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
-	padding:15px;
-	border-radius:15px; 
-}
-#right #btn{
+#btn{
+	color:blanchedalmond;
 	display: block;
 	padding:20px;
-	border:1px
-	font-size:1.5rem;
-	background-color:#fce77d;
-	border:0.5px black solid;
+	font-size:1.2rem;
+	background-color:#F96A4D;
 	border-radius:15px;
-	margin:15px;
+	margin:15px auto;
+	transition:transform 0.25s ease-in-out;
+}
+#btn:hover{
+	transform:scale(1.1);
 }
 #error{
 	color:red;
 	font-size:0.8em;
+}
+#username{
+	font-weight:bold;
+}
+footer{
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	background-color:#FAF0CA;
+	color:#0A0B0A;
+	padding:4px;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+}
+footer span{
+	font-weight:bold;
+	font-family: 'Rubik', sans-serif;
+	font-size:1.1em;
 }
 
 

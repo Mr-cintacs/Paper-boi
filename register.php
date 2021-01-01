@@ -83,7 +83,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 	 				if($stmt->execute(["username"=>$username,"hash_password"=>$hash_password,"type"=>$type]))
 	 				{
 	 					
-	 					header('location: login.php');
+	 					header('location: landing_page.php#login');
 	 				}
 	 				else
 	 				{
@@ -141,7 +141,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 	 	</form>
 	</section>
 	<footer>
-		<p>A site to see by <span>Pavit Kailay</span></p>
+		<p>A site to see by <span id="fspan">Pavit Kailay</span></p>
 	</footer>
  	
  </body>
